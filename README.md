@@ -45,7 +45,7 @@ Advanced Data Extraction and Machine Learning Analytics on Distinct English and 
    python main.py ```
 
 
-#### Output
+### Output
 The redacted PDFs will be saved in `data/output` and `data/output/chinese_output` respectively. 
 - Text files with and without sensitive information will also be generated in the respective output directories. 
 

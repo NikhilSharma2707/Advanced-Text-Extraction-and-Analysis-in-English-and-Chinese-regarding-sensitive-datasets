@@ -1,32 +1,41 @@
-**Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets**
+# Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets
 
-This sophisticated application automates the masking of sensitive information within PDF documents, catering to both English and Chinese text. Leveraging machine learning and regex-based pattern recognition, it efficiently redacts personal details while maintaining the original document layout. Designed for versatility, it is suitable for both small-scale and enterprise-level data protection, ensuring comprehensive privacy and security. ## Advanced Data Extraction and Machine Learning Analytics on Distinct English and Chinese Datasets ### Project Overview This advanced application automates the masking of sensitive information in PDF documents. 
+This sophisticated application automates the masking of sensitive information within PDF documents, catering to both English and Chinese text.
+Leveraging machine learning and regex-based pattern recognition, it efficiently redacts personal details while maintaining the original document layout. 
+Designed for versatility, it is suitable for both small-scale and enterprise-level data protection, ensuring comprehensive privacy and security.
+Advanced Data Extraction and Machine Learning Analytics on Distinct English and Chinese Datasets ### Project Overview This advanced application automates the masking of sensitive information in PDF documents. 
 
-It supports both English and Chinese text, utilizing machine learning and regex-based pattern recognition to redact personal details while preserving the original layout. This tool is ideal for both small-scale and enterprise data protection. 
+- It supports both English and Chinese text
+- utilizing machine learning and regex-based pattern recognition to redact personal details while preserving the original layout.
+- This tool is ideal for both small-scale and enterprise data protection. 
 
-### Features - **Supports English and Chinese PDFs**: Handles sensitive data in both languages. - **Regex and Machine Learning**: Uses a combination of regex patterns and machine learning models for accurate information extraction and redaction. - 
-
-**Preserves Original Layout**: Ensures the output PDF maintains the same layout and structure as the original. - **Generates Redacted and Non-Redacted Text Files**: Provides both versions for verification and compliance purposes.
+## Features
+- #### Supports English and Chinese PDFs**: Handles sensitive data in both languages.
+- #### Regex and Machine Learning**: Uses a combination of regex patterns and machine learning models for accurate information extraction and redaction. -
+- #### Preserves Original Layout: Ensures the output PDF maintains the same layout and structure as the original.
+- #### Generates Redacted and Non-Redacted Text Files**: Provides both versions for verification and compliance purposes.
                 
-### Prerequisites Before you begin, ensure you have met the following requirements: - Python 3.8+ - Git - Required Python packages (listed in `requirements.txt`) 
+### Prerequisites Before you begin, ensure you have met the following requirements: 
+- Python 3.8+
+-  Git - Required Python packages (listed in `requirements.txt`) 
 
-### Installation 
-1. **Clone the Repository**
+### Installation
+1. ### Clone the Repository:
     ```bash git clone https://github.com/brucewayneoptimusprime/Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets.git cd Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets ``` 
 
-2. **Create a Virtual Environment**:
+2. ### Create a Virtual Environment:
    ```bash python -m venv .venv```
 
-4. **Activate the Virtual Environment** :
-    On Windows: ```bash .venv\Scripts\activate```
-    On macOS and Linux: ```bash source .venv/bin/activate```
-5. **Install Required Packages**:
+4. ### Activate the Virtual Environment :
+    - On Windows: ```bash .venv\Scripts\activate```
+    - On macOS and Linux: ```bash source .venv/bin/activate```
+5. ### Install Required Packages:
     ```bash pip install -r requirements.txt ``` 
 
-6. **Place Your PDFs**:
+6. ### Place Your PDFs:
    - For English PDFs, place them in the `data/input` directory.
    - For Chinese PDFs, place them in the `data/chinese_input` directory.
-7. **Execute the Main Script**:
+7. ### Execute the Main Script:
     ```bash python main.py ```
 
 

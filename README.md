@@ -49,30 +49,6 @@ Advanced Data Extraction and Machine Learning Analytics on Distinct English and 
 The redacted PDFs will be saved in `data/output` and `data/output/chinese_output` respectively. 
 - Text files with and without sensitive information will also be generated in the respective output directories. 
 
-Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets/
-│
-├── data/
-│ ├── input/ # English PDFs
-│ ├── output/ # Output directory for English PDFs
-│ │ ├── redacted_output.pdf # Redacted English PDF
-│ │ ├── with_sensitive_info.txt
-│ │ └── without_sensitive_info.txt
-│ ├── chinese_input/ # Chinese PDFs
-│ └── output/chinese_output/ # Output directory for Chinese PDFs
-│ ├── redacted_output.pdf # Redacted Chinese PDF
-│ ├── with_sensitive_info.txt
-│ └── without_sensitive_info.txt
-│
-├── pythonProject/
-│ ├── main.py # Main script
-│ ├── chinese_pattern.py # Chinese text extraction and redaction
-│ └── other scripts... # Additional scripts for functionality
-│
-├── requirements.txt # Python packages required
-└── README.md # Project readme         
-
-# Python packages required └── README.md                    # Project readme ``` ### Contributing Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome. 
-
 
 # Encryption Folder
 

@@ -10,16 +10,29 @@ It supports both English and Chinese text, utilizing machine learning and regex-
                 
 ### Prerequisites Before you begin, ensure you have met the following requirements: - Python 3.8+ - Git - Required Python packages (listed in `requirements.txt`) 
 
-### Installation 1. **Clone the Repository** - ```bash git clone https://github.com/brucewayneoptimusprime/Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets.git cd Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets ``` 
+### Installation 
+1. **Clone the Repository**
+    ```bash git clone https://github.com/brucewayneoptimusprime/Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets.git cd Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets ``` 
 
-2. **Create a Virtual Environment** ```bash python -m venv .venv ```
+2. **Create a Virtual Environment**:
+   ```bash python -m venv .venv```
 
-3. **Activate the Virtual Environment** - On Windows: ```bash .venv\Scripts\activate ``` - On macOS and Linux: ```bash source .venv/bin/activate ``` 4. **Install Required Packages** ```bash pip install -r requirements.txt ``` ### Usage #### Running the Tool
+4. **Activate the Virtual Environment** :
+    On Windows: ```bash .venv\Scripts\activate```
+    On macOS and Linux: ```bash source .venv/bin/activate```
+5. **Install Required Packages**:
+    ```bash pip install -r requirements.txt ``` 
 
-4. **Place Your PDFs** - For English PDFs, place them in the `data/input` directory. - For Chinese PDFs, place them in the `data/chinese_input` directory. 2. **Execute the Main Script** ```bash python main.py ```
+6. **Place Your PDFs**:
+   - For English PDFs, place them in the `data/input` directory.
+   - For Chinese PDFs, place them in the `data/chinese_input` directory.
+7. **Execute the Main Script**:
+    ```bash python main.py ```
 
 
-#### Output - The redacted PDFs will be saved in `data/output` and `data/output/chinese_output` respectively. - Text files with and without sensitive information will also be generated in the respective output directories. 
+#### Output
+The redacted PDFs will be saved in `data/output` and `data/output/chinese_output` respectively. 
+- Text files with and without sensitive information will also be generated in the respective output directories. 
 
 Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets/
 │
@@ -44,8 +57,6 @@ Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-
 └── README.md # Project readme         
 
 # Python packages required └── README.md                    # Project readme ``` ### Contributing Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome. 
-
-### License This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. ### Contact For any inquiries or issues, please contact Aditya Vikram Singh.
 
 
 # Encryption Folder

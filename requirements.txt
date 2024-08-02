@@ -1,0 +1,16 @@
+PyPDF2
+pdfminer.six
+Pillow
+opencv-python
+pytesseract
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+nltk
+spacy
+requests
+beautifulsoup4
+lxml
+fitz  # PyMuPDF

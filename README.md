@@ -1,97 +1,52 @@
 **Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets**
 
-This sophisticated application automates the masking of sensitive information within PDF documents, catering to both English and Chinese text. 
-Leveraging machine learning and regex-based pattern recognition, it efficiently redacts personal details while maintaining the original document layout. 
-Designed for versatility, it is suitable for both small-scale and enterprise-level data protection, ensuring comprehensive privacy and security.
+This sophisticated application automates the masking of sensitive information within PDF documents, catering to both English and Chinese text. Leveraging machine learning and regex-based pattern recognition, it efficiently redacts personal details while maintaining the original document layout. Designed for versatility, it is suitable for both small-scale and enterprise-level data protection, ensuring comprehensive privacy and security. ## Advanced Data Extraction and Machine Learning Analytics on Distinct English and Chinese Datasets ### Project Overview This advanced application automates the masking of sensitive information in PDF documents. 
 
-Advanced Data Extraction and Machine Learning Analytics on Distinct English and Chinese Datasets
-Project Overview
-This advanced application automates the masking of sensitive information in PDF documents. It supports both English and Chinese text, utilizing machine learning and regex-based pattern recognition to redact personal details while preserving the original layout. This tool is ideal for both small-scale and enterprise data protection.
+It supports both English and Chinese text, utilizing machine learning and regex-based pattern recognition to redact personal details while preserving the original layout. This tool is ideal for both small-scale and enterprise data protection. 
 
-Features
-Supports English and Chinese PDFs: Handles sensitive data in both languages.
-Regex and Machine Learning: Uses a combination of regex patterns and machine learning models for accurate information extraction and redaction.
-Preserves Original Layout: Ensures the output PDF maintains the same layout and structure as the original.
-Generates Redacted and Non-Redacted Text Files: Provides both versions for verification and compliance purposes.
-Prerequisites
-Before you begin, ensure you have met the following requirements:
+### Features - **Supports English and Chinese PDFs**: Handles sensitive data in both languages. - **Regex and Machine Learning**: Uses a combination of regex patterns and machine learning models for accurate information extraction and redaction. - 
 
-Python 3.8+
-Git
-Required Python packages (listed in requirements.txt)
-Installation
-Clone the Repository
+**Preserves Original Layout**: Ensures the output PDF maintains the same layout and structure as the original. - **Generates Redacted and Non-Redacted Text Files**: Provides both versions for verification and compliance purposes.
+                
+### Prerequisites Before you begin, ensure you have met the following requirements: - Python 3.8+ - Git - Required Python packages (listed in `requirements.txt`) 
 
-bash
-Copy code
-git clone https://github.com/brucewayneoptimusprime/Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets.git
-cd Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets
-Create a Virtual Environment
+### Installation 1. **Clone the Repository** - ```bash git clone https://github.com/brucewayneoptimusprime/Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets.git cd Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets ``` 
 
-bash
-Copy code
-python -m venv .venv
-Activate the Virtual Environment
+2. **Create a Virtual Environment** ```bash python -m venv .venv ```
 
-On Windows:
-bash
-Copy code
-.venv\Scripts\activate
-On macOS and Linux:
-bash
-Copy code
-source .venv/bin/activate
-Install Required Packages
+3. **Activate the Virtual Environment** - On Windows: ```bash .venv\Scripts\activate ``` - On macOS and Linux: ```bash source .venv/bin/activate ``` 4. **Install Required Packages** ```bash pip install -r requirements.txt ``` ### Usage #### Running the Tool
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Running the Tool
-Place Your PDFs
+4. **Place Your PDFs** - For English PDFs, place them in the `data/input` directory. - For Chinese PDFs, place them in the `data/chinese_input` directory. 2. **Execute the Main Script** ```bash python main.py ```
 
-For English PDFs, place them in the data/input directory.
-For Chinese PDFs, place them in the data/chinese_input directory.
-Execute the Main Script
 
-bash
-Copy code
-python main.py
-Output
-The redacted PDFs will be saved in data/output and data/output/chinese_output respectively.
-Text files with and without sensitive information will also be generated in the respective output directories.
-File Structure
-graphql
-Copy code
+#### Output - The redacted PDFs will be saved in `data/output` and `data/output/chinese_output` respectively. - Text files with and without sensitive information will also be generated in the respective output directories. 
+
 Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets/
 │
 ├── data/
-│   ├── input/                   # English PDFs
-│   ├── output/                  # Output directory for English PDFs
-│   │   ├── redacted_output.pdf  # Redacted English PDF
-│   │   ├── with_sensitive_info.txt
-│   │   └── without_sensitive_info.txt
-│   ├── chinese_input/           # Chinese PDFs
-│   └── output/chinese_output/   # Output directory for Chinese PDFs
-│       ├── redacted_output.pdf  # Redacted Chinese PDF
-│       ├── with_sensitive_info.txt
-│       └── without_sensitive_info.txt
+│ ├── input/ # English PDFs
+│ ├── output/ # Output directory for English PDFs
+│ │ ├── redacted_output.pdf # Redacted English PDF
+│ │ ├── with_sensitive_info.txt
+│ │ └── without_sensitive_info.txt
+│ ├── chinese_input/ # Chinese PDFs
+│ └── output/chinese_output/ # Output directory for Chinese PDFs
+│ ├── redacted_output.pdf # Redacted Chinese PDF
+│ ├── with_sensitive_info.txt
+│ └── without_sensitive_info.txt
 │
 ├── pythonProject/
-│   ├── main.py                  # Main script
-│   ├── chinese_pattern.py       # Chinese text extraction and redaction
-│   └── other scripts...         # Additional scripts for functionality
+│ ├── main.py # Main script
+│ ├── chinese_pattern.py # Chinese text extraction and redaction
+│ └── other scripts... # Additional scripts for functionality
 │
-├── requirements.txt             # Python packages required
-└── README.md                    # Project readme
-Contributing
-Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
+├── requirements.txt # Python packages required
+└── README.md # Project readme         
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+# Python packages required └── README.md                    # Project readme ``` ### Contributing Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome. 
 
-Contact
-For any inquiries or issues, please contact Aditya Vikram Singh.
+### License This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. ### Contact For any inquiries or issues, please contact Aditya Vikram Singh.
+
 
 # Encryption Folder
 

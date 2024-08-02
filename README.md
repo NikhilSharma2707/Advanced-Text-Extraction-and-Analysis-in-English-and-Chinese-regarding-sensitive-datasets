@@ -119,6 +119,20 @@ When scanned, each QR code reveals the static key associated with a different fi
 #### 2. **Run the Script**:
    ```bash
    python qr_code_generator.py
+`````
+
+## `send_mail.py(Future Application)`
+This script sends an email with a QR code attachment to a specified recipient using the Mailjet API. The email subject includes randomly generated info.
+### Functions
+Sends an email with the QR code attachment using the Mailjet API to the user whose sensitive information file is present. The email is extracted from the `extract_emails.py` file. This is not fully functional yet it is for future application.
+
+#### 2. **Run the Script**:
+   ```bash
+   python send_email_with_qr.py
+`````
+
+
+
 
 
 

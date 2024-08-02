@@ -177,7 +177,9 @@ Sends an email with the QR code attachment using the Mailjet API to the user who
    python send_email_with_qr.py
 `````
 
-
+## Authors
+- [**Nikhil Sharma**](https://github.com/NikhilSharma2707)
+- [**Aditya Vikram Singh**](https://github.com/brucewayneoptimusprime)
 
 
 

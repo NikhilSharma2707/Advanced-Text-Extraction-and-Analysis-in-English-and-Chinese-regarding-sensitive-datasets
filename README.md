@@ -45,6 +45,21 @@ Maps valid keys to their respective Google Drive file URLs. This dictionary is u
 
 - download_file() - Redirects to the file URL (can be utilized for additional functionality related to file downloads)
 
+  
+To run the Flask application, follow these steps:
+
+1. **Install Flask**:
+   Ensure you have Flask installed. You can install it using pip:
+
+   ```bash
+   pip install Flask
+
+2. **TO RUN THE FILE**:
+   Use the following command in your terminal or command prompt to start the Flask application:
+
+   ```bash
+   python app.py
+
 ## `aes_cipher.py`
 This file implements the AES encryption and decryption functionality using the pycryptodome library. It defines the AESCipher class with methods to encrypt and decrypt text.
 

@@ -134,6 +134,21 @@ Maps valid keys to their respective Google Drive file URLs. This dictionary is u
 
 - download_file() - Redirects to the file URL (can be utilized for additional functionality related to file downloads)
 
+  
+To run the Flask application, follow these steps:
+
+1. **Install Flask**:
+   Ensure you have Flask installed. You can install it using pip:
+
+   ```bash
+   pip install Flask
+
+2. **TO RUN THE FILE**:
+   Use the following command in your terminal or command prompt to start the Flask application:
+
+   ```bash
+   python app.py
+
 ## `aes_cipher.py`
 This file implements the AES encryption and decryption functionality using the pycryptodome library. It defines the AESCipher class with methods to encrypt and decrypt text.
 
@@ -168,3 +183,45 @@ To extract text from a PDF file using the script, follow these steps:
 
    ```bash
    python extract_text_from_pdf.py
+`````
+
+## `qr_code_generator.py`
+This script generates multiple QR codes with unique static keys derived from file names and saves them in a specified folder. The static keys are associated with different files.
+
+### Functions
+
+- Generates a static key by hashing the file name with SHA-256.
+- Returns the hashed key.
+-Creates a QR code containing the provided data and saves the QR code image to the specified file path.
+
+### Detailed Description
+The script creates a static key for each file by hashing its name.
+It then generates a QR code that encodes this static key and the file name.
+
+The QR codes are saved in the specified folder, with each QR code associated with a different file.
+
+When scanned, each QR code reveals the static key associated with a different file.
+
+#### 1. **Update the PDF Path**:
+   - Modify the path variable in the script to point to your folders where sensitive info is stored
+     
+#### 2. **Run the Script**:
+   ```bash
+   python qr_code_generator.py
+`````
+
+## `send_mail.py(Future Application)`
+This script sends an email with a QR code attachment to a specified recipient using the Mailjet API. The email subject includes randomly generated info.
+### Functions
+Sends an email with the QR code attachment using the Mailjet API to the user whose sensitive information file is present. The email is extracted from the `extract_emails.py` file. This is not fully functional yet it is for future application.
+
+#### 2. **Run the Script**:
+   ```bash
+   python send_email_with_qr.py
+`````
+
+
+
+
+
+

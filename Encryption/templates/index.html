@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Key</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #000000, #434343); /* Black gradient background */
+            color: #fff;
+        }
+        
+        .container {
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            border-radius: 15px;
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        
+        h1 {
+            font-weight: 900; /* Extra bold text */
+            font-size: 2em; /* Larger text size for better visibility */
+            margin-bottom: 20px; /* Space below the heading */
+            text-align: center; /* Center the heading text */
+        }
+        
+        input[type="text"] {
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            background: #222;
+            color: #fff;
+            font-size: 1em;
+            margin: 10px 0;
+            width: 80%; /* Width is set to 80% of the container */
+            max-width: 300px; /* Maximum width of the input field */
+            box-sizing: border-box;
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: #444;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            margin-top: 20px; /* Space above the button */
+        }
+        
+        button:hover {
+            background: #666;
+        }
+        
+        /* Optional: to ensure that the button is centered if not already */
+        .container button {
+            display: block;
+            margin: 20px auto 0; /* Center the button horizontally */
+        }
+             
+    </style>
+</head>
+
+<body>
+
+    
+    <form action="/verify_key" method="get">
+        <h1 style="text-align: center;">Enter Key</h1>
+        <input type="text" id="key" name="key" required>
+        <h5 style="text-align: center;"><button type="submit">Submit</button></h5>
+    </form>
+    
+    <script>
+
+// Example of a simple script for interactive functionality
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page loaded and script running.');
+});
+    </script>
+</body>
+</html>

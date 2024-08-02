@@ -94,3 +94,5 @@ To extract text from a PDF file using the script, follow these steps:
 
    ```bash
    python extract_text_from_pdf.py
+
+

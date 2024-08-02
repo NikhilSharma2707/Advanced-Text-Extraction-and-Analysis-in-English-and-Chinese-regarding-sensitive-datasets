@@ -21,22 +21,28 @@ Advanced Data Extraction and Machine Learning Analytics on Distinct English and 
 
 ### Installation
 1. ### Clone the Repository:
-    ```bash git clone https://github.com/brucewayneoptimusprime/Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets.git cd Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets ``` 
+      ```bash
+   git clone https://github.com/brucewayneoptimusprime/Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets.git cd Advanced-Data-Extraction-and-Machine-Learning-Analytics-on-Distinct-English-and-Chinese-Datasets
 
 2. ### Create a Virtual Environment:
-   ```bash python -m venv .venv```
+   ```bash
+    python -m venv .venv```
 
 4. ### Activate the Virtual Environment :
-    - On Windows: ```bash .venv\Scripts\activate```
-    - On macOS and Linux: ```bash source .venv/bin/activate```
+    - On Windows: ```bash
+      .venv\Scripts\activate```
+    - On macOS and Linux: ```bash
+       source .venv/bin/activate```
 5. ### Install Required Packages:
-    ```bash pip install -r requirements.txt ``` 
+    ```bash
+   pip install -r requirements.txt ``` 
 
-6. ### Place Your PDFs:
+7. ### Place Your PDFs:
    - For English PDFs, place them in the `data/input` directory.
    - For Chinese PDFs, place them in the `data/chinese_input` directory.
-7. ### Execute the Main Script:
-    ```bash python main.py ```
+8. ### Execute the Main Script:
+    ```bash
+   python main.py ```
 
 
 #### Output

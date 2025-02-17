@@ -180,6 +180,7 @@ Sends an email with the QR code attachment using the Mailjet API to the user who
 ## Authors
 - [**Nikhil Sharma**](https://github.com/NikhilSharma2707)
 - [**Aditya Vikram Singh**](https://github.com/brucewayneoptimusprime)
+- [**Aditya Teotia**](https://github.com/Adityaa050)
 
 
 

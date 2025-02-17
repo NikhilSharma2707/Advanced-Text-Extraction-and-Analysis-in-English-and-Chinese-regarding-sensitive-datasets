@@ -5,7 +5,7 @@ Leveraging machine learning and regex-based pattern recognition, it efficiently 
 Designed for versatility, it is suitable for both small-scale and enterprise-level data protection, ensuring comprehensive privacy and security.
 Advanced Data Extraction and Machine Learning Analytics on Distinct English and Chinese Datasets ### Project Overview This advanced application automates the masking of sensitive information in PDF documents. 
 
-- It supports both English and Chinese text
+- It supports both English and Chinese text.
 - utilizing machine learning and regex-based pattern recognition to redact personal details while preserving the original layout.
 - This tool is ideal for both small-scale and enterprise data protection. 
 
